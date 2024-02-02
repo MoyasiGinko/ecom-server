@@ -136,8 +136,8 @@ In order to run this project you need:
 
 ```bash
 open git bash
-git clone https://github.com/MoyasiGinko/E-commerce-project.git
-cd E-commerce-project
+git clone https://github.com/MoyasiGinko/ecom-server.git
+cd ecom-server
 ```
 
 2. Install the dependencies:
