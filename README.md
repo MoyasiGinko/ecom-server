@@ -1,6 +1,6 @@
 <br>
 <div align='center'>
-	<h1>Micro Commerce App Front-end (API)</h1>
+	<h1>E-Commerce App Front-end (API)</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -22,9 +22,9 @@
 - [📝 License](#license)
 
 
-# 🖥️ "Micro Commerce" Front-end  <a name="about-project"></a>
+# 🖥️ "E-Commerce" Front-end  <a name="about-project"></a>
 
-**Micro Commerce App Front-end** is an application that aims to revolutionize the e-commerce industry by providing a seamless and user-friendly online shopping experience. With a wide range of products and intuitive features, our app makes it easy for customers to browse, explore, and purchase their favorite items. Whether you're a fashion enthusiast, a tech geek, or a home decor lover, Micro Commerce has something for everyone. Start exploring our virtual marketplace today and discover the joy of online shopping like never before.
+**E-Commerce App Front-end** is an application that aims to revolutionize the e-commerce industry by providing a seamless and user-friendly online shopping experience. With a wide range of products and intuitive features, our app makes it easy for customers to browse, explore, and purchase their favorite items. Whether you're a fashion enthusiast, a tech geek, or a home decor lover, E-Commerce has something for everyone. Start exploring our virtual marketplace today and discover the joy of online shopping like never before.
 
 ## ⚙️ Integration with Back-End
 
@@ -85,15 +85,15 @@ This front-end project is designed to seamlessly integrate with its counterpart 
 
 #### Key Features <a name="key-features"></a>
 
-- Seamless Online Shopping: Experience a revolutionized e-commerce industry with our Micro Commerce app. Browse, explore, and purchase your favorite items with ease.
+- Seamless Online Shopping: Experience a revolutionized e-commerce industry with our E-Commerce app. Browse, explore, and purchase your favorite items with ease.
 
-- Wide Range of Products: Whether you're a fashion enthusiast, a tech geek, or a home decor lover, Micro Commerce has something for everyone. Discover a diverse collection of products.
+- Wide Range of Products: Whether you're a fashion enthusiast, a tech geek, or a home decor lover, E-Commerce has something for everyone. Discover a diverse collection of products.
 
 - User-Friendly Interface: Enjoy a visually appealing and intuitive user interface that ensures a seamless shopping experience for users of all backgrounds.
 
 - Integration with Back-End: Our front-end project seamlessly integrates with the back-end project, providing API endpoints and a database for a complete e-commerce solution.
 
-- Responsive Design: Micro Commerce is designed to be responsive, providing a consistent and enjoyable shopping experience on both mobile devices and desktops.
+- Responsive Design: E-Commerce is designed to be responsive, providing a consistent and enjoyable shopping experience on both mobile devices and desktops.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
