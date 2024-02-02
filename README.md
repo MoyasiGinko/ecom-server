@@ -13,7 +13,6 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Tests](#tests)
 - [👥 Authors](#authors)
 - [📈 Gallery](#gallery)
 - [🔭 Added Features](#added-features)
