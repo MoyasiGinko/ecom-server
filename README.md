@@ -1,6 +1,5 @@
-<br>
 <div align='center'>
-	<h1>E-Commerce App Front-end (API)</h1>
+	<h1>E-Commerce App Back-end (API)</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -15,69 +14,43 @@
   - [Setup](#setup)
 - [👥 Authors](#authors)
 - [📈 Gallery](#gallery)
-- [🔭 Added Features](#added-features)
+- [🔭 Endpoints](#endpoints)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 
-# 🖥️ "E-Commerce" Front-end  <a name="about-project"></a>
+# 🖥️ "E-Commerce" Back-end  <a name="about-project"></a>
 
-**E-Commerce App Front-end** is an application that aims to revolutionize the e-commerce industry by providing a seamless and user-friendly online shopping experience. With a wide range of products and intuitive features, our app makes it easy for customers to browse, explore, and purchase their favorite items. Whether you're a fashion enthusiast, a tech geek, or a home decor lover, E-Commerce has something for everyone. Start exploring our virtual marketplace today and discover the joy of online shopping like never before.
+**E-Commerce App Back-end** is the server-side of an application that revolutionizes the e-commerce industry. It provides API endpoints for user authentication, product management, inventory tracking, order creation, and payment processing. Seamlessly integrate this backend with the front-end for a complete e-commerce solution.
 
-## ⚙️ Integration with Back-End
+## ⚙️ Integration with Front-End
 
-This front-end project is designed to seamlessly integrate with its counterpart *back-end project*. The Back-end project provides the API endpoints and database for the front-end project.
+This backend project seamlessly integrates with its counterpart *front-end project*. The front-end project communicates with these API endpoints to enable features like user authentication, product management, order creation, and payment processing.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <br>
-  <ul>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-      <img alt="ruby" width="90px"  height="35px" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-    </a>
-    <br>
-    <a href="https://babeljs.io/">
-      <img alt="ruby" width="100px"  height="35px" src="https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black" />
-    </a>
-    <br>
-    <a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">
-      <img alt="ruby" width="130px"  height="35px" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" />
-    </a>
-    <br>
-    <a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">
-      <img alt="ruby" width="145px"  height="35px" src="https://img.shields.io/badge/stylelint-000?style=for-the-badge&logo=stylelint&logoColor=white" />
-    </a>
-    <br>
-    <a href="https://webpack.js.org/">
-      <img alt="ruby" width="140px"  height="35px" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" />
-    </a>
-    <br>
-    <a href="https://reactjs.org/">
-      <img alt="ruby" width="120px"  height="35px" src="https://img.shields.io/badge/React-0075A8?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    </a>
-    <br>
-    <a href="https://redux.js.org/">
-      <img alt="ruby" width="120px"  height="35px" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" />
-    </a>
-    <br>
-    <a href="https://tailwind.com/">
-      <img alt="ruby" width="100px"  height="35px" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    </a>
-    <br>
-
-  </ul>
-</details>
-<details>
   <summary>Server</summary>
   <br>
   <ul>
-    <a href="https://github.com/Mhamad-Raad/final-capstone-backend">
-      <img alt="ruby" width="90px"  height="35px" src="https://img.shields.io/badge/api-F37626?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
+    <a href="https://www.npmjs.com/package/express">
+      <img alt="ruby" width="90px"  height="35px" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+    </a>
+    <br>
+    <a href="https://www.npmjs.com/package/cors">
+      <img alt="ruby" width="110px"  height="35px" src="https://img.shields.io/badge/CORS-563D7C?style=for-the-badge&logo=cors&logoColor=white" />
+    </a>
+    <br>
+    <a href="https://www.npmjs.com/package/body-parser">
+      <img alt="ruby" width="130px"  height="35px" src="https://img.shields.io/badge/Body%20Parser-47B881?style=for-the-badge&logo=body&logoColor=white" />
+    </a>
+    <br>
+    <a href="https://www.npmjs.com/package/jsonwebtoken">
+      <img alt="ruby" width="150px"  height="35px" src="https://img.shields.io/badge/JSON%20Web%20Tokens-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
     </a>
     <br>
   </ul>
@@ -85,15 +58,17 @@ This front-end project is designed to seamlessly integrate with its counterpart 
 
 #### Key Features <a name="key-features"></a>
 
-- Seamless Online Shopping: Experience a revolutionized e-commerce industry with our E-Commerce app. Browse, explore, and purchase your favorite items with ease.
+- User Authentication: Secure user authentication with JSON Web Tokens (JWT).
 
-- Wide Range of Products: Whether you're a fashion enthusiast, a tech geek, or a home decor lover, E-Commerce has something for everyone. Discover a diverse collection of products.
+- Product Management: API endpoints for adding, updating, and deleting products.
 
-- User-Friendly Interface: Enjoy a visually appealing and intuitive user interface that ensures a seamless shopping experience for users of all backgrounds.
+- Inventory Tracking: Track product inventory with dedicated endpoints.
 
-- Integration with Back-End: Our front-end project seamlessly integrates with the back-end project, providing API endpoints and a database for a complete e-commerce solution.
+- Order Creation: Create orders with details like total price and product list.
 
-- Responsive Design: E-Commerce is designed to be responsive, providing a consistent and enjoyable shopping experience on both mobile devices and desktops.
+- Payment Processing: API endpoints for handling payments and transactions.
+
+- CORS Support: Cross-Origin Resource Sharing support for secure communication with the front-end.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +85,7 @@ N/A
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Prerequisites and setup instructions for the project are listed below.
+Prerequisites and setup instructions for the backend project are listed below.
 
 <!-- Prerequisites -->
 ### Prerequisites <a name="prerequisites"></a>
@@ -119,15 +94,11 @@ In order to run this project you need:
 - Computer running MacOS, Linux or Windows
 - Terminal (MacOS/Linux) or Command Line (Windows)
 - Git ([Download](https://git-scm.com/downloads))
-- Web browser ([Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), etc.)
-- Source code editor ([VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.)
 - Node.js (version 14.15.4 or higher) ([Download](https://nodejs.org/en/download/))
-- NPM (version 6.14.10 or higher) ([Download](https://www.npmjs.com/get-npm))
-- React ([Create React App](https://create-react-app.dev/docs/getting-started/))
-- Redux ([React Redux](https://react-redux.js.org/))
-- Postman ([Download](https://www.postman.com/downloads/))
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p
+
+ align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Setup -->
 ### Setup <a name="setup"></a>
@@ -146,30 +117,18 @@ cd ecom-server
 npm install
 ```
 
-3. Modify your local environment: To setup your environment variables, you need to create a `.env` file in the root directory of the project and add the following line:
+3. Modify your local environment: Create a `.env` file in the root directory and add the following lines:
 
-- For development: PORT is optional, if not provided, the app will run on port 3000.
 ```bash
-REACT_APP_API_AUTH_URL=http://localhost:3001/api/v1/auth
-REACT_APP_API_URL=http://localhost:3001/api/v1
-REACT_APP_PAYPAL_CLIENT_ID="your-client-id"
-```
-- For production:
-```bash
-REACT_APP_API_AUTH_URL="your-auth-url"
-REACT_APP_API_URL="your-api-url"
-REACT_APP_PAYPAL_CLIENT_ID="your-client-id"
+PORT=3001
+JWT_SECRET_KEY="your-secret-key"
 ```
 
-4. Start the app in a Power-Shell/bash terminal:
+4. Start the server:
 
 ```bash
 npm start
 ```
-
-5. Open your web browser and navigate to: http://localhost:3000/ to access the application.
-
-6. **Back End**: You need to have the back-end running in order to see the run your frontend server, please read the backend documentation and follow the instructions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +142,6 @@ This project was developed by:
 - LinkedIn: [moyasi](https://www.linkedin.com/in/moyasi/)
 - Twitter: [@moyasi_ginko](https://twitter.com/moyasi_ginko)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- KANBAN BOARD -->
@@ -194,38 +152,67 @@ The project's gallery is available [here](https://github.com/MoyasiGinko/ecom-se
 
 ![Screenshot 2024-01-29 105603](https://github.com/MoyasiGinko/E-commerce-project/assets/108092696/85bb6c3d-00db-4aff-bd88-28f0f0d660c2)
 
-
-<!-- You can see a screenshoot of the initial state of the board below: -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ENDPOINTS -->
 
-<!-- FUTURE FEATURES -->
-## 🔭 Added Features <a name="added-features"></a>
+## 🔭 Endpoints <a name="endpoints"></a>
 
-- [ ] **Add user authentication**
-- [ ] **Add user authorization**
-- [ ] **Add user role; CUSTOMER, VENDOR and ADMIN**
+### User Authentication Routes
 
-- [ ] **Add products**
-- [ ] **Add edit product details**
-- [ ] **Add delete product**
+- `POST /api/v1/auth/login`: User login route.
+- `POST /api/v1/auth/register`: User registration route.
 
-- [ ] **Add product categories**
-- [ ] **Add edit product categories**
-- [ ] **Add delete product categories**
+### Product Routes
 
-- [ ] **Add shopping cart**
-- [ ] **Add checkout process**
-- [ ] **Add payment processing**
-- [ ] **Add paypal integration**
+- `GET /api/v1/product`: Retrieve all products.
+- `GET /api/v1/product/:id`: Retrieve a specific product by ID.
+- `POST /api/v1/product`: Add a new product.
+- `PUT /api/v1/product/:productId`: Update a specific product by ID.
+- `DELETE /api/v1/product/:productId`: Delete a specific product by ID.
+- `GET /api/v1/product/vendor/:vendorId`: Retrieve products by vendor ID.
 
-- [ ] **Add user profiles**
-- [ ] **Add product inventory**
-- [ ] **Add navbar**
+### Product Category Routes
 
-- [ ] **Add check application health**
-- [ ] **Add responsive design**
+- `POST /api/v1/product-category`: Add a new product category.
+- `GET /api/v1/product-category`: Retrieve all product categories.
+- `GET /api/v1/product-category/:categoryId`: Retrieve a specific product category by ID.
+- `PATCH /api/v1/product-category/:categoryId`: Update a specific product category by ID.
+- `DELETE /api/v1/product-category/:categoryId`: Delete a specific product category by ID.
+
+### Inventory Routes
+
+- `POST /api/v1/inventory`: Add a new inventory item.
+- `GET /api/v1/inventory`: Retrieve all inventory items.
+- `GET /api/v1/inventory/:inventoryId`: Retrieve a specific inventory item by ID.
+- `PUT /api/v1/inventory/:inventoryId`: Update a specific inventory item by ID.
+- `DELETE /api/v1/inventory/:inventoryId`: Delete a specific inventory item by ID.
+
+### Order Routes
+
+- `POST /api/v1/order`: Create a new order.
+- `GET /api/v1/orders`: Retrieve all orders.
+- `GET /api/v1/orders/:orderId`: Retrieve a specific order by ID.
+
+### Payment Routes
+
+- `POST /api/v1/payment`: Process a new payment.
+- `GET /api/v1/payments`: Retrieve all payments.
+
+### Other Routes
+
+- `GET /api/v1/analytic/suggestion/user/:userId`: Retrieve user recommendations.
+- `GET /api/v1/orders`: Retrieve all orders.
+- `GET /api/v1/orders/:orderId`: Retrieve a specific order by ID.
+- `GET /api/v1/payments`: Retrieve all payments.
+
+### Static File Serving
+
+Static files from the 'public' directory are served.
+
+### Server Start
+
+The server starts listening on the specified port (either `process.env.PORT` or `3001` by default).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -233,9 +220,7 @@ The project's gallery is available [here](https://github.com/MoyasiGinko/ecom-se
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/MoyasiGinko/ecom-server/issues).
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,7 +228,7 @@ Feel free to check the [issues page](https://github.com/MoyasiGinko/ecom-server/
 
 ## ⭐️ Show your support <a name="support"></a>
 
-- If you like this project please give it a ⭐️!
+If you find this project helpful, please consider giving it a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,17 +236,12 @@ Feel free to check the [issues page](https://github.com/MoyasiGinko/ecom-server/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks a lot to everyone who will get time to check this out.
-
+Thanks to everyone who contributes to this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
