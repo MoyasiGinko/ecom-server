@@ -18,7 +18,7 @@
   - [Auth Routes](#auth-routes)
   - [Product Routes](#product-routes)
   - [Product Category Routes](#product-category-routes)
-  - [Inventory Routes](#inventory-routes)
+  <!-- - [Inventory Routes](#inventory-routes) -->
   - [Order Routes](#order-routes)
   - [Payment Routes](#payment-routes)
 - [👥 Authors](#authors)
@@ -881,6 +881,6 @@ Give a ⭐️ if you found this project interesting and helpful!
 
 ## 📝 License <a name="license"></a>
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
