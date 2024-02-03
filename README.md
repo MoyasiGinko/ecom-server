@@ -70,6 +70,7 @@ This backend project seamlessly integrates with its counterpart *front-end proje
 
 - CORS Support: Cross-Origin Resource Sharing support for secure communication with the front-end.
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO  -->
@@ -96,9 +97,8 @@ In order to run this project you need:
 - Git ([Download](https://git-scm.com/downloads))
 - Node.js (version 14.15.4 or higher) ([Download](https://nodejs.org/en/download/))
 
-<p
 
- align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Setup -->
 ### Setup <a name="setup"></a>
