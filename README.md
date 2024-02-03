@@ -121,13 +121,12 @@ npm install
 
 ```bash
 PORT=3001
-JWT_SECRET_KEY="your-secret-key"
 ```
 
 4. Start the server:
 
 ```bash
-npm start
+node server.js
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
